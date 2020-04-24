@@ -1,0 +1,88 @@
+  body{
+            background-color: hsl(0, 0%, 98%);
+            padding-top: 70px ;
+      margin: 0;
+            
+        }
+        *{
+            font-family:'Poppins';
+            color: hsl(234, 12%, 34%);
+            box-sizing: border-box;
+        }
+        .header1{text-align:center;   
+}
+        
+        h1{font-weight: 200;
+           
+        }
+        h1 span{
+            font-weight: 600;
+        }
+        h3{
+            font-weight: 600;
+        }
+        .header1 >span{
+            text-align: center;
+            font-weight: 200;
+            font-size: 15px;
+            text-transform: capitalize;
+       }
+        .content{
+            margin: 10px;
+            width:auto;
+            text-align: center;
+            padding: 35px;
+            text-transform: capitalize;
+            
+            letter-spacing:normal;
+            
+        }
+         article> div{
+            overflow: hidden;
+            display: inline-block;
+            vertical-align: middle;
+             text-align: left;
+             font-weight: 200;
+            font-size: 15px;
+             background-color: white;
+        }
+        
+        .col{
+            background-color: inherit;
+        }
+        
+
+        
+        .TopRedBorder{
+            border-top:5px solid hsl(0, 78%, 62%);
+            
+        }
+        
+        .TopCyanBorder{
+            border-top:5px solid hsl(180, 62%, 55%);
+           
+
+        }
+        .TopOrangeBorder{
+            border-top:5px solid hsl(34, 97%, 64%);
+            
+
+        }
+        .TopBlueBorder{
+            border-top:5px solid  hsl(212, 86%, 64%); 
+            
+        }
+        .card{
+            margin: 30px 14px;
+            height: 250px;
+            width: 350px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 2px 2px 25px -15px  hsl(229, 6%, 66%);
+
+        }
+        
+        .CardImg{
+            position: absolute;bottom: 20px;right: 20px
+        }
+        
