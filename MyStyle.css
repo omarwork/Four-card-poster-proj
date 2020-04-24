@@ -9,7 +9,15 @@
             color: hsl(234, 12%, 34%);
             box-sizing: border-box;
         }
-        .header1{text-align:center;   
+.head{
+    width: 100%;
+    color: red;
+    text-align:center; 
+}
+        .header1{
+    
+display: inline-block;
+            width: 30em;
 }
         
         h1{font-weight: 200;
@@ -22,10 +30,7 @@
             font-weight: 600;
         }
         .header1 >span{
-            text-align: center;
             font-weight: 200;
-            font-size: 15px;
-            text-transform: capitalize;
        }
         .content{
             margin: 10px;
@@ -44,7 +49,6 @@
              text-align: left;
              font-weight: 200;
             font-size: 15px;
-             background-color: white;
         }
         
         .col{
@@ -79,10 +83,36 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 2px 2px 25px -15px  hsl(229, 6%, 66%);
+            background-color: white;
+
 
         }
         
         .CardImg{
             position: absolute;bottom: 20px;right: 20px
         }
+
+
         
+@media only screen and (max-width: 800px) {
+    
+    .col .card:first-child{
+        margin-bottom: -15px;
+    }
+    .col .card:nth-child(2){
+        margin-top: 75px;
+    }
+    .header1{
+        color: red;
+        padding: 3em 2em;
+    }
+    .text{
+        font-size: 20px;
+    }
+    .content{
+        padding:0 1em 1em 1em;
+    }
+    body{
+        padding: 0;
+    }
+}
