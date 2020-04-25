@@ -113,7 +113,6 @@ display: inline-block;
     }
     
     article>div{
-        background-color: aqua!important;
         display: block;
         margin: auto;
         text-align: center;
@@ -128,7 +127,6 @@ display: inline-block;
         display: inline-block;
         padding: 2em;
         width: inherit;
-        background-color: beige;
         
     }
     
