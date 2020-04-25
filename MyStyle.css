@@ -92,12 +92,23 @@ display: inline-block;
         }
 
 
-@media only screen and (max-width: 1300px) and (min-width:1000px) {
+@media only screen and (max-width: 1305px) and (min-width:800px) {
     .card{
-        width:18em;
+        width:25vw;
+        max-height: 25vw;
+        margin: 2vw 1vw;
+        font-size: 1.5vw;
+
     }
+    .CardImg{
+        width: 5vw;
+    }
+    .content{
+        padding: 1em;
+    }
+    
 }
-@media only screen and (max-width: 1000px)
+@media only screen and (max-width: 800px)
  {
     
     .col .card:first-child{
