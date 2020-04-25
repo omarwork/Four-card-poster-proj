@@ -78,7 +78,7 @@ display: inline-block;
         .card{
             margin: 30px 14px;
             height: 250px;
-            width: 350px;
+            width: 25em;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 2px 2px 25px -15px  hsl(229, 6%, 66%);
@@ -92,8 +92,12 @@ display: inline-block;
         }
 
 
-        
-@media only screen and (max-width: 1235px)  {
+@media only screen and (max-width: 1300px) and (min-width:1000px) {
+    .card{
+        width:18em;
+    }
+}
+@media only screen and (max-width: 1000px)  {
     
     .col .card:first-child{
         margin-bottom: -15px;
@@ -102,7 +106,7 @@ display: inline-block;
     .col .card:nth-child(2){
         margin-top: 75px;
     }
-    
+     
     .header1{
         color: red;
         padding: 3em 2em;
@@ -113,7 +117,6 @@ display: inline-block;
     }
     
     article>div{
-        background-color: aqua!important;
         display: block;
         margin: auto;
         text-align: center;
@@ -128,7 +131,6 @@ display: inline-block;
         display: inline-block;
         padding: 2em;
         width: inherit;
-        background-color: beige;
         
     }
     
